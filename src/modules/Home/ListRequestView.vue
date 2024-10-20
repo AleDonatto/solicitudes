@@ -20,7 +20,7 @@ const headers = [
   { title: 'Tipo de peticion', align: 'end', key: 'tipo' },
   { title: 'Categoria', align: 'end', key: 'categoria' },
   { title: 'Estatus', align: 'end', key: 'estatus' },
-  { title: 'Opciones', align: 'end', },
+  { title: 'Opciones' },
 ]
 
 const plants = [
