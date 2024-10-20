@@ -13,13 +13,13 @@
 
 <script setup lang="ts">
 const headers = [
-  { title: 'Codigo', align: 'start', sortable: false, key: 'code' },
-  { title: 'Titulo', align: 'start', sortable: false, key: 'name' },
-  { title: 'Solicitante', align: 'end', key: 'solicitante' },
-  { title: 'Direccion', align: 'end', key: 'direccion' },
-  { title: 'Tipo de peticion', align: 'end', key: 'tipo' },
-  { title: 'Categoria', align: 'end', key: 'categoria' },
-  { title: 'Estatus', align: 'end', key: 'estatus' },
+  { title: 'Codigo', sortable: false, key: 'code' },
+  { title: 'Titulo', sortable: false, key: 'name' },
+  { title: 'Solicitante',  key: 'solicitante' },
+  { title: 'Direccion',  key: 'direccion' },
+  { title: 'Tipo de peticion', key: 'tipo' },
+  { title: 'Categoria', key: 'categoria' },
+  { title: 'Estatus', key: 'estatus' },
   { title: 'Opciones' },
 ]
 
