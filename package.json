@@ -1,0 +1,26 @@
+{
+  "name": "solicitudes",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.4.47",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "i": "^0.3.7",
+    "npm": "^10.8.3",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1",
+    "vite-plugin-vuetify": "^2.0.4",
+    "vue-tsc": "^2.0.29",
+    "vuetify": "^3.7.1"
+  }
+}
